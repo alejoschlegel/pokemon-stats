@@ -10,9 +10,9 @@ export class PokemonClientService {
     id: "",
     moves: [],
     name: "",
-    sprites: {},
-    stats: [],
-    types: [],
+    sprite: "",
+    stats: [{}],
+    types: [{}],
     weight: 0
   };
 
@@ -29,9 +29,23 @@ export class PokemonClientService {
       this.data.id = res.id;
       this.data.moves = res.moves;
       this.data.name = res.name;
-      this.data.sprites = res.sprites;
-      this.data.stats = res.stats;
-      this.data.types = res.types;
+      this.data.sprite = res.sprites.front_default;
+      // for every stat save relevant data
+      for (let i = 0; i < res.stats.length; i++){
+        let obj = {
+          num: res.stats[i].base_stat,
+          name: res.stats[i].stat.name
+        }
+        this.data.stats.push(obj);
+      }
+      // for every type save relevant data
+      for (let i = 0; i < res.types.length; i++){
+        let obj = {
+          slot: res.types[i].slot,
+          name: res.types[i].type.name
+        }
+        this.data.types.push(obj)
+      }
       this.data.weight = res.weight;
     })
     .catch((error) => console.error(error));
@@ -44,7 +58,7 @@ export class PokemonClientService {
         console.log(data);
         let obj = {
           name: data.name,
-          description: data.effect_entries[0].effect
+          description: data.effect_entries[1].effect
         }
         this.data.abilities.push(obj);
         console.log(this.data);

@@ -12,9 +12,8 @@ export class AboutComponent implements OnInit {
   constructor(private pokemonClient: PokemonClientService) { }
 
   ngOnInit(): void {
-    this.pokemonClient.getPokemon('pikachu').then((data:any) => {
+    this.pokemonClient.getPokemon('arcanine').then((data:any) => {
       this.pikachu = data;
     })
   }
-
 }
