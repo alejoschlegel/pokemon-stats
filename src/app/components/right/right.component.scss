@@ -1,0 +1,20 @@
+.wrapper {
+    padding: 1rem;
+    padding-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 100vh;
+    box-sizing: border-box;
+    .container {
+        width: 100%;
+        flex: content;
+        background-color: aquamarine;
+        overflow-y: scroll;
+        table {
+            width: 100%;
+            table-layout: fixed;
+            background-color: blanchedalmond;
+        }
+    }
+}

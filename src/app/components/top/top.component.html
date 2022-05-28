@@ -1,0 +1,6 @@
+<div class="wrapper">
+    <input matInput type="text" list="pokemonsList" placeholder="Search by name" [(ngModel)]="inputValue" (ngModelChange)="getPokemon()">
+    <datalist id="pokemonsList">
+        <option *ngFor="let pokemon of pokemonsList" value={{pokemon}}>
+    </datalist>
+</div>

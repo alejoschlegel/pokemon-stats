@@ -1,9 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+// types: Array<string> = ['bug', 'dark', 'dragon', 'electric', 'fairy', 'fighting', 'fire', 'flying', 'ghost', 'grass', 'ground', 'ice', 'normal', 'poison', 'psychic', 'rock', 'steel', 'water'];
 :root {
-    --blue: #0070f3;
-}
+    --white: #efefe6;
+    --light-white: #ffffff;
+    --black: #131313;
+    --light-black: #181818;
+    --light-blue: #aac3cd;
+    --purple: #8b3bdb;
+    --light-purple: #e196c1;
+    --orange: #f83d0c;
+    --light-orange: #fa7451;
+    --yellow: #fcac14;
+    --brown: #a66333;
 
-body, html {
-  margin: 0;
-  padding: 0;
+    --bug: #a6b91a;
+    --dark: #735a12;
+    --dragon: #0f7fd8;
+    --electric: #f7d02c;
+    --fairy: #f4b9ff;
+    --fighting: #b22234;
+    --fire: #ea5f0e;
+    --flying: #a890f0;
+    --ghost: #735a12;
+    --grass: #7ac74c;
+    --ground: #e2bf65;
+    --ice: #92d8d8;
+    --normal: #a8a878;
+    --poison: #a33ea1;
+    --psychic: #f95587;
+    --rock: #b8a038;
+    --steel: #b7b7b7;
+    --water: #5da5d8;
+
+    --physical: #b8a038;
+    --special: #92d8d8;
+    --status: #f95587;
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+    background-color: var(--white);
+    font-family: "open sans", sans-serif;
 }

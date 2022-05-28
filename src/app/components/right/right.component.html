@@ -1,0 +1,51 @@
+<div class="wrapper">
+
+<div class="container">
+    <table mat-table [dataSource]="this.pokemonService.currentMoves">
+
+        <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> name </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="category">
+            <th mat-header-cell *matHeaderCellDef> cat </th>
+            <td mat-cell *matCellDef="let element">
+                <app-tag [type]="element.damage_class"></app-tag>
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="type">
+            <th mat-header-cell *matHeaderCellDef> type </th>
+            <td mat-cell *matCellDef="let element">
+                <app-tag [type]="element.damage_type"></app-tag>
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="power">
+            <th mat-header-cell *matHeaderCellDef> pwr </th>
+            <td mat-cell *matCellDef="let element"> {{element.power}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="accuracy">
+            <th mat-header-cell *matHeaderCellDef> acc </th>
+            <td mat-cell *matCellDef="let element"> {{element.accuracy}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="description">
+            <th mat-header-cell *matHeaderCellDef> description </th>
+            <td mat-cell *matCellDef="let element"> {{element.effect? element.effect : ""}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="effect">
+            <th mat-header-cell *matHeaderCellDef> efx </th>
+            <td mat-cell *matCellDef="let element"> {{element.effect_chance}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+</div>
+
+</div>

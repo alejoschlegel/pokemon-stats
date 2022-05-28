@@ -1,0 +1,1310 @@
+[
+    {
+        "name": "stench",
+        "description": "This Pokomon's damaging moves have a 10% chance to make the target flinch with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokomon is first in the party."
+    },
+    {
+        "name": "drizzle",
+        "description": "The weather changes to rain when this Pokomon enters battle and does not end unless replaced by another weather condition.\n\nIf multiple Pokomon with this ability, drought, sand stream, or snow warning are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokomon will stay."
+    },
+    {
+        "name": "speed-boost",
+        "description": "This Pokomon's Speed rises one stage after each turn."
+    },
+    {
+        "name": "battle-armor",
+        "description": "Moves cannot score critical hits against this Pokomon.\n\nThis ability functions identically to shell armor."
+    },
+    {
+        "name": "sturdy",
+        "description": "When this Pokomon is at full HP, any hit that would knock it out will instead leave it with 1 HP.  Regardless of its current HP, it is also immune to the one-hit KO moves: fissure, guillotine, horn drill, and sheer cold.\n\nIf this Pokomon is holding a focus sash, this ability takes precedence and the item will not be consumed."
+    },
+    {
+        "name": "damp",
+        "description": "While this Pokomon is in battle, self destruct and explosion will fail and aftermath will not take effect."
+    },
+    {
+        "name": "limber",
+        "description": "This Pokomon cannot be paralyzed.\n\nIf a Pokomon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle."
+    },
+    {
+        "name": "sand-veil",
+        "description": "During a sandstorm, this Pokomon has 1.25 times its evasion, and it does not take sandstorm damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is halved in a sandstorm."
+    },
+    {
+        "name": "static",
+        "description": "Whenever a move makes contact with this Pokomon, the move's user has a 30% chance of being paralyzed.\n\nPokomon that are immune to electric-type moves can still be paralyzed by this ability.\n\nOverworld: If the lead Pokomon has this ability, there is a 50% chance that encounters will be with an electric Pokomon, if applicable."
+    },
+    {
+        "name": "volt-absorb",
+        "description": "Whenever an electric-type move hits this Pokomon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nThis ability will not take effect if this Pokomon is ground-type and thus immune to Electric moves.  Electric moves will ignore this Pokomon's substitute.\n\nThis effect includes non-damaging moves, i.e. thunder wave."
+    },
+    {
+        "name": "water-absorb",
+        "description": "Whenever a water-type move hits this Pokomon, it heals for 1/4 of its maximum HP, negating any other effect on it.\n\nWater moves will ignore this Pokomon's substitute."
+    },
+    {
+        "name": "oblivious",
+        "description": "This Pokomon cannot be infatuated and is immune to captivate.\n\nIf a Pokomon is infatuated and acquires this ability, its infatuation is cleared."
+    },
+    {
+        "name": "cloud-nine",
+        "description": "While this Pokomon is in battle, weather can still be in play, but will not have any of its effects.\n\nThis ability functions identically to air lock."
+    },
+    {
+        "name": "compound-eyes",
+        "description": "This Pokomon's moves have 1.3 times their accuracy.\n\nThis ability has no effect on the one-hit KO moves (fissure, guillotine, horn drill, and sheer cold).\n\nOverworld: If the first Pokomon in the party has this ability, the chance of a wild Pokomon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively."
+    },
+    {
+        "name": "insomnia",
+        "description": "This Pokomon cannot be asleep.\n\nThis causes rest to fail altogether.  If a Pokomon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to vital spirit in battle."
+    },
+    {
+        "name": "color-change",
+        "description": "Whenever this Pokomon takes damage from a move, the Pokomon's type changes to match the move.\n\nIf the Pokomon has two types, both are overridden.  The Pokomon must directly take damage; for example, moves blocked by a substitute will not trigger this ability, nor will moves that deal damage indirectly, such as spikes.\n\nThis ability takes effect on only the last hit of a multiple-hit attack.\n\nIn Pokomon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves."
+    },
+    {
+        "name": "immunity",
+        "description": "This Pokomon cannot be poisoned.  This includes bad poison.\n\nIf a Pokomon is poisoned and acquires this ability, its poison is healed; this includes when regaining a lost ability upon leaving battle."
+    },
+    {
+        "name": "flash-fire",
+        "description": "This Pokomon is immune to fire-type moves.  Once this Pokomon has been hit by a Fire move, its own Fire moves will inflict 1.5 times as much damage until it leaves battle.\n\nThis ability has no effect while the Pokomon is frozen.  The Fire damage bonus is retained even if the Pokomon is frozen and thawed or the ability is lost or disabled.  Fire moves will ignore this Pokomon's substitute.  This ability takes effect even on non-damaging moves, i.e. will o wisp."
+    },
+    {
+        "name": "shield-dust",
+        "description": "This Pokomon is immune to the extra effects of moves used against it.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, thunder shock's paralysis is an extra effect, but thunder wave's is not, nor are knock off's item removal and air cutter's increased critical hit rate."
+    },
+    {
+        "name": "own-tempo",
+        "description": "This Pokomon cannot be confused.\n\nIf a Pokomon is confused and acquires this ability, its confusion will immediately be healed."
+    },
+    {
+        "name": "suction-cups",
+        "description": "This Pokomon cannot be forced out of battle by moves such as whirlwind.\n\ndragon tail and circle throw still inflict damage against this Pokomon.\n\nOverworld: If the lead Pokomon has this ability, the success rate while fishing is increased."
+    },
+    {
+        "name": "intimidate",
+        "description": "When this Pokomon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a substitute.\n\nOverworld: If the first Pokomon in the party has this ability, any random encounter with a Pokomon five or more levels lower than it has a 50% chance of being skipped."
+    },
+    {
+        "name": "shadow-tag",
+        "description": "While this Pokomon is in battle, opposing Pokomon cannot flee or switch out.\n\nOther Pokomon with this ability are unaffected.  Pokomon with run away can still flee.  Pokomon can still switch out with the use of a move or item."
+    },
+    {
+        "name": "rough-skin",
+        "description": "Whenever a move makes contact with this Pokomon, the move's user takes 1/8 of its maximum HP in damage.\n\nThis ability functions identically to iron barbs."
+    },
+    {
+        "name": "wonder-guard",
+        "description": "This Pokomon is immune to damaging moves that are not super effective against it.\n\nMoves that inflict fixed damage, such as night shade or seismic toss, are considered super effective if their types are.  Damage not directly dealt by moves, such as damage from weather, a status ailment, or spikes, is not prevented.\n\nThis ability cannot be copied with role play or traded away with skill swap, but it can be copied with trace, disabled with gastro acid, or changed with worry seed.  This Pokomon can still use Role Play itself to lose this ability, but not Skill Swap.\n\nIf this Pokomon has a substitute, this ability will block moves as usual and any moves not blocked will react to the Substitute as usual."
+    },
+    {
+        "name": "levitate",
+        "description": "This Pokomon is immune to ground-type moves, spikes, toxic spikes, and arena trap.\n\nThis ability is disabled during gravity or ingrain, or while holding an iron ball.  This ability is not disabled during roost."
+    },
+    {
+        "name": "effect-spore",
+        "description": "Whenever a move makes contact with this Pokomon, the move's user has a 30% chance of being paralyzed, poisoned, or put to sleep, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected."
+    },
+    {
+        "name": "synchronize",
+        "description": "Whenever this Pokomon is burned, paralyzed, or poisoned, the Pokomon who gave this Pokomon that ailment is also given the ailment.\n\nThis ability passes back bad poison when this Pokomon is badly poisoned.  This ability cannot pass on a status ailment that the Pokomon did not directly receive from another Pokomon, such as the poison from toxic spikes or the burn from a flame orb.\n\nOverworld: If the lead Pokomon has this ability, wild Pokomon have a 50% chance of having the lead Pokomon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokomon's nature.  This does not work on Pokomon received outside of battle or roaming legendaries."
+    },
+    {
+        "name": "clear-body",
+        "description": "This Pokomon cannot have its stats lowered by other Pokomon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis.  This Pokomon can still be passed negative stat modifiers through guard swap, heart swap, or power swap.\n\nThis ability functions identically to white smoke in battle."
+    },
+    {
+        "name": "natural-cure",
+        "description": "This Pokomon is cured of any major status ailment when it is switched out for another Pokomon.\n\nIf this ability is acquired during battle, the Pokomon is cured upon leaving battle before losing the temporary ability."
+    },
+    {
+        "name": "lightning-rod",
+        "description": "All other Pokomon's single-target electric-type moves are redirected to this Pokomon if it is an eligible target.  Other Pokomon's Electric moves raise this Pokomon's Special Attack one stage, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokomon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokomon.  follow me takes precedence over this ability.\n\nIf the Pokomon is a ground-type and thus immune to Electric moves, its immunity prevents the Special Attack boost."
+    },
+    {
+        "name": "serene-grace",
+        "description": "This Pokomon's moves have twice their usual effect chance.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect.  For example, flamethrower's chance of burning the target is doubled, but protect's chance of success and air cutter's increased critical hit rate are unaffected.\n\nsecret power is unaffected."
+    },
+    {
+        "name": "swift-swim",
+        "description": "This Pokomon's Speed is doubled during rain.\n\nThis bonus does not count as a stat modifier."
+    },
+    {
+        "name": "chlorophyll",
+        "description": "This Pokomon's Speed is doubled during strong sunlight.\n\nThis bonus does not count as a stat modifier."
+    },
+    {
+        "name": "illuminate",
+        "description": "Overworld: If the lead Pokomon has this ability, the wild encounter rate is doubled.\n\nThis ability has no effect in battle."
+    },
+    {
+        "name": "trace",
+        "description": "When this Pokomon enters battle, it copies a random opponent's ability.\n\nThis ability cannot copy flower gift, forecast, illusion, imposter, multitype, trace, wonder guard, or zen mode."
+    },
+    {
+        "name": "huge-power",
+        "description": "This Pokomon's Attack is doubled while in battle.\n\nThis bonus does not count as a stat modifier.\n\nThis ability functions identically to pure power."
+    },
+    {
+        "name": "poison-point",
+        "description": "Whenever a move makes contact with this Pokomon, the move's user has a 30% chance of being poisoned."
+    },
+    {
+        "name": "inner-focus",
+        "description": "This Pokomon cannot flinch."
+    },
+    {
+        "name": "magma-armor",
+        "description": "This Pokomon cannot be frozen.\n\nIf a Pokomon is frozen and acquires this ability, it will immediately thaw out; this includes when regaining a lost ability upon leaving battle.\n\nOverworld: If any Pokomon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokomon have this ability or flame body."
+    },
+    {
+        "name": "water-veil",
+        "description": "This Pokomon cannot be burned.\n\nIf a Pokomon is burned and acquires this ability, its burn is healed; this includes when regaining a lost ability upon leaving battle."
+    },
+    {
+        "name": "magnet-pull",
+        "description": "While this Pokomon is in battle, opposing steel-type Pokomon cannot flee or switch out.\n\nPokomon with run away can still flee.  Pokomon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokomon has this ability, Steel-type Pokomon have a higher encounter rate."
+    },
+    {
+        "name": "soundproof",
+        "description": "This Pokomon is immune to moves flagged as being sound-based.\n\nheal bell is unaffected.  uproar still prevents this Pokomon from sleeping.  This Pokomon can still receive a Perish Song counter through baton pass, and will retain a Perish Song counter if it acquires this ability after Perish Song is used.\n\nhowl, roar of time, sonic boom, and yawn are not flagged as sound-based."
+    },
+    {
+        "name": "rain-dish",
+        "description": "This Pokomon heals for 1/16 of its maximum HP after each turn during rain."
+    },
+    {
+        "name": "sand-stream",
+        "description": "The weather changes to a sandstorm when this Pokomon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokomon with this ability, drizzle, drought, or snow warning are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokomon will stay.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is halved in a sandstorm."
+    },
+    {
+        "name": "pressure",
+        "description": "Moves targetting this Pokomon use one extra PP.\n\nThis ability stacks if multiple targets have it.  This ability still affects moves that fail or miss.  This ability does not affect ally moves that target either the entire field or just its side, nor this Pokomon's self-targetted moves; it does, however, affect single-targetted ally moves aimed at this Pokomon, ally moves that target all other Pokomon, and opponents' moves that target the entire field.  If this ability raises a move's PP cost above its remaining PP, it will use all remaining PP.\n\nWhen this Pokomon enters battle, all participating trainers are notified that it has this ability.\n\nOverworld: If the lead Pokomon has this ability, higher-levelled Pokomon have their encounter rate increased."
+    },
+    {
+        "name": "thick-fat",
+        "description": "This Pokomon takes half as much damage from fire- and ice-type moves."
+    },
+    {
+        "name": "early-bird",
+        "description": "This Pokomon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokomon's sleep counter is at 1, it will fall to 0 and then the Pokomon will wake up."
+    },
+    {
+        "name": "flame-body",
+        "description": "Whenever a move makes contact with this Pokomon, the move's user has a 30% chance of being burned.\n\nOverworld: If any Pokomon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokomon have this ability or magma armor."
+    },
+    {
+        "name": "run-away",
+        "description": "This Pokomon is always successful fleeing from wild battles, even if trapped by a move or ability."
+    },
+    {
+        "name": "keen-eye",
+        "description": "This Pokomon cannot have its accuracy lowered.\n\nThis ability does not prevent any accuracy losses other than stat modifiers, such as the accuracy cut from fog; nor does it prevent other Pokomon's evasion from making this Pokomon's moves less accurate.  This Pokomon can still be passed negative accuracy modifiers through heart swap.\n\nOverworld: If the first Pokomon in the party has this ability, any random encounter with a Pokomon five or more levels lower than it has a 50% chance of being skipped."
+    },
+    {
+        "name": "hyper-cutter",
+        "description": "This Pokomon's Attack cannot be lowered by other Pokomon.\n\nThis ability does not prevent any Attack losses other than stat modifiers, such as the Attack cut from a burn.  This Pokomon can still be passed negative Attack modifiers through heart swap or power swap."
+    },
+    {
+        "name": "pickup",
+        "description": "At the end of each turn, if another Pokomon consumed or Flung a held item that turn, this Pokomon picks up the item if it is not already holding one.  After each battle, this Pokomon has a 10% chance of picking up an item if it is not already holding one.\n\nThe air balloon and eject button cannot be picked up.\n\nThe items that may be found vary by game, and, since Pokomon Emerald, by the Pokomon's level.  This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
+    },
+    {
+        "name": "truant",
+        "description": "Every second turn on which this Pokomon should attempt to use a move, it will instead do nothing (\"loaf around\").\n\nLoafing around interrupts moves that take multiple turns the same way paralysis, flinching, etc do.  Most such moves, for example bide or rollout, are simply cut off upon loafing around.  Attacks with a recharge turn, such as hyper beam, do not have to recharge; attacks with a preparation turn, such as fly, do not end up being used.  Moves that are forced over multiple turns and keep going through failure, such as outrage, uproar, or any move forced by encore, keep going as usual.\n\nIf this Pokomon is confused, its confusion is not checked when loafing around; the Pokomon cannot hurt itself, and its confusion does not end or come closer to ending.\n\nIf this Pokomon attempts to move but fails, e.g. because of paralysis or gravity, it still counts as having moved and will loaf around the next turn.  If it does not attempt to move, e.g. because it is asleep or frozen, whatever it would have done will be postponed until its next attempt; that is, it will either loaf around or move as usual, depending on what it last did.\n\nThis ability cannot be changed with worry seed, but it can be disabled with gastro acid, changed with role play, or traded away with skill swap."
+    },
+    {
+        "name": "hustle",
+        "description": "This Pokomon's physical moves do 1.5 times as much regular damage, but have 0.8 times their usual accuracy.\n\nSpecial moves are unaffected.  Moves that do set damage, such as seismic toss, have their accuracy affected, but not their damage.\n\nOverworld: If the lead Pokomon has this ability, higher-levelled Pokomon have their encounter rate increased."
+    },
+    {
+        "name": "cute-charm",
+        "description": "Whenever a move makes contact with this Pokomon, the move's user has a 30% chance of being infatuated.\n\nOverworld: If the first Pokomon in the party has this ability, any wild Pokomon whose species can be either gender has a 2/3 chance of being set to the opposite gender, and a 1/3 chance of having a random gender as usual."
+    },
+    {
+        "name": "plus",
+        "description": "This Pokomon has 1.5 times its Special Attack if any friendly Pokomon has plus or minus.\n\nThis bonus does not count as a stat modifier.  If either ability is disabled by gastro acid, both lose their effect."
+    },
+    {
+        "name": "minus",
+        "description": "This Pokomon has 1.5 times its Special Attack if any friendly Pokomon has plus or minus.\n\nThis bonus does not count as a stat modifier.  If either ability is disabled by gastro acid, both lose their effect."
+    },
+    {
+        "name": "forecast",
+        "description": "During rain, strong sunlight, or hail, this Pokomon's type changes to water, fire, or ice, respectively, and its form changes to match.\n\nThis ability has no effect for any Pokomon other than castform.\n\nIf the weather ends or becomes anything that does not trigger this ability, or a Pokomon with air lock or cloud nine enters battle, this Pokomon's type and form revert to their default.  If this ability is lost or disabled, this Pokomon cannot change its current type and form until it regains its ability."
+    },
+    {
+        "name": "sticky-hold",
+        "description": "This Pokomon's hold item cannot be removed by other Pokomon.\n\nDamaging moves that would remove this Pokomon's item can still inflict damage against this Pokomon, e.g. knock off or pluck.  This Pokomon can still use moves that involve the loss of its own item, e.g. fling or trick.\n\nOverworld: If the lead Pokomon has this ability, the encounter rate while fishing is increased."
+    },
+    {
+        "name": "shed-skin",
+        "description": "After each turn, this Pokomon has a 33% of being cured of any major status ailment."
+    },
+    {
+        "name": "guts",
+        "description": "Whenever this Pokomon is asleep, burned, paralyzed, or poisoned, it has 1.5 times its Attack.  This Pokomon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a stat modifier."
+    },
+    {
+        "name": "marvel-scale",
+        "description": "Whenever this Pokomon has a major status ailment, it has 1.5 times its Defense.\n\nThis bonus does not count as a stat modifier."
+    },
+    {
+        "name": "liquid-ooze",
+        "description": "Whenever a Pokomon would heal after hitting this Pokomon with a leeching move like absorb, it instead loses as many HP as it would usually gain.\n\ndream eater is unaffected."
+    },
+    {
+        "name": "overgrow",
+        "description": "When this Pokomon has 1/3 or less of its HP remaining, its grass-type moves inflict 1.5 times as much regular damage."
+    },
+    {
+        "name": "blaze",
+        "description": "When this Pokomon has 1/3 or less of its HP remaining, its fire-type moves inflict 1.5 times as much regular damage."
+    },
+    {
+        "name": "torrent",
+        "description": "When this Pokomon has 1/3 or less of its HP remaining, its water-type moves inflict 1.5 times as much regular damage."
+    },
+    {
+        "name": "swarm",
+        "description": "When this Pokomon has 1/3 or less of its HP remaining, its bug-type moves inflict 1.5 times as much regular damage.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is increased."
+    },
+    {
+        "name": "rock-head",
+        "description": "This Pokomon does not receive recoil damage from its recoil moves.\n\nstruggle's recoil is unaffected.  This ability does not prevent crash damage from missing with jump kick or high jump kick."
+    },
+    {
+        "name": "drought",
+        "description": "The weather changes to strong sunlight when this Pokomon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokomon with this ability, drizzle, sand stream, or snow warning are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokomon will stay."
+    },
+    {
+        "name": "arena-trap",
+        "description": "While this Pokomon is in battle, opposing Pokomon cannot flee or switch out.  flying-type Pokomon and Pokomon in the air, e.g. due to levitate or magnet rise, are unaffected.\n\nPokomon with run away can still flee.  Pokomon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is doubled."
+    },
+    {
+        "name": "vital-spirit",
+        "description": "This Pokomon cannot be asleep.\n\nThis causes rest to fail altogether.  If a Pokomon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to insomnia in battle.\n\nOverworld: If the lead Pokomon has this ability, higher-levelled Pokomon have their encounter rate increased."
+    },
+    {
+        "name": "white-smoke",
+        "description": "This Pokomon cannot have its stats lowered by other Pokomon.\n\nThis ability does not prevent any stat losses other than stat modifiers, such as the Speed cut from paralysis; nor self-inflicted stat drops, such as the Special Attack drop from overheat; nor opponent-triggered stat boosts, such as the Attack boost from swagger.  This Pokomon can still be passed negative stat modifiers through guard swap, heart swap, or power swap.\n\nThis ability functions identically to clear body in battle.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is halved."
+    },
+    {
+        "name": "pure-power",
+        "description": "This Pokomon's Attack is doubled in battle.\n\nThis bonus does not count as a stat modifier.\n\nThis ability functions identically to huge power."
+    },
+    {
+        "name": "shell-armor",
+        "description": "Moves cannot score critical hits against this Pokomon.\n\nThis ability functions identically to battle armor."
+    },
+    {
+        "name": "air-lock",
+        "description": "While this Pokomon is in battle, weather can still be in play, but will not have any of its effects.\n\nThis ability functions identically to cloud nine."
+    },
+    {
+        "name": "tangled-feet",
+        "description": "When this Pokomon is confused, it has twice its evasion."
+    },
+    {
+        "name": "motor-drive",
+        "description": "Whenever an electric-type move hits this Pokomon, its Speed rises one stage, negating any other effect on it.\n\nThis ability will not take effect if this Pokomon is immune to Electric moves.  Electric moves will ignore this Pokomon's substitute.\n\nThis effect includes non-damaging moves, i.e. thunder wave."
+    },
+    {
+        "name": "rivalry",
+        "description": "This Pokomon inflicts 1.25 times as much regular damage against Pokomon of the same gender and 0.75 times as much regular damage against Pokomon of the opposite gender.\n\nIf either Pokomon is genderless, damage is unaffected."
+    },
+    {
+        "name": "steadfast",
+        "description": "Whenever this Pokomon flinches, its Speed rises one stage."
+    },
+    {
+        "name": "snow-cloak",
+        "description": "During hail, this Pokomon has 1.25 times its evasion, and it does not take hail damage regardless of type.\n\nThe evasion bonus does not count as a stat modifier.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is halved in snow."
+    },
+    {
+        "name": "gluttony",
+        "description": "This Pokomon eats any held Berry triggered by low HP when it falls below 50% of its HP, regardless of the Berry's usual threshold."
+    },
+    {
+        "name": "anger-point",
+        "description": "Whenever this Pokomon receives a critical hit, its Attack rises to the maximum of 6 stages.\n\nThis ability will still take effect if the critical hit is received by a substitute."
+    },
+    {
+        "name": "unburden",
+        "description": "When this Pokomon uses or loses its held item, its Speed is doubled.  If it gains another item or leaves battle, this bonus is lost.\n\nThis includes when the Pokomon drops its item because of knock off.  This bonus does not count as a stat modifier.  There is no notification when this ability takes effect."
+    },
+    {
+        "name": "heatproof",
+        "description": "This Pokomon takes half as much damage from fire-type moves and burns."
+    },
+    {
+        "name": "simple",
+        "description": "Each stage of this Pokomon's stat modifiers acts as two stages.  These doubled stages are still limited to a minimum of -6 and a maximum of 6.\n\nThis Pokomon can still accumulate less than -3 or more than 3 stages of stat modifiers, even though the extra ones have no effect after doubling."
+    },
+    {
+        "name": "dry-skin",
+        "description": "This Pokomon takes 1/8 of its maximum HP in damage after each turn during strong sunlight, but it heals for 1/8 of its HP each turn during rain.  This Pokomon takes 1.25 times as much damage from fire-type moves, but whenever a water move hits it, it heals for 1/4 its maximum HP instead."
+    },
+    {
+        "name": "download",
+        "description": "When this Pokomon enters battle, its Attack or Special Attack, whichever corresponds to its opponents' weaker total defensive stat, rises one stage.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle."
+    },
+    {
+        "name": "iron-fist",
+        "description": "Moves flagged as being punch-based have 1.2 times their base power for this Pokomon.\n\nsucker punch is not flagged as punch-based; its original, Japanese name only means \"surprise attack\"."
+    },
+    {
+        "name": "poison-heal",
+        "description": "If this Pokomon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage.  This includes bad poison."
+    },
+    {
+        "name": "adaptability",
+        "description": "This Pokomon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5 times."
+    },
+    {
+        "name": "skill-link",
+        "description": "This Pokomon always hits five times with two-to-five-hit moves, such as icicle spear.  It also bypasses the accuracy checks on triple kick's second and third hits."
+    },
+    {
+        "name": "hydration",
+        "description": "This Pokomon is cured of any major status ailment after each turn during rain."
+    },
+    {
+        "name": "solar-power",
+        "description": "During strong sunlight, this Pokomon has 1.5 times its Special Attack but takes 1/8 of its maximum HP in damage after each turn."
+    },
+    {
+        "name": "quick-feet",
+        "description": "Whenever this Pokomon has a major status ailment, it has 1.5 times its Speed.  This Pokomon is not affected by the usual Speed cut from paralysis.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is halved."
+    },
+    {
+        "name": "normalize",
+        "description": "This Pokomon's moves all act as if they were normal-type.\n\nMoves that inflict typeless damage do so as usual.  Moves of variable type, such as hidden power, are affected.  They otherwise work as usual, however; weather ball, for example, is always forced to be Normal, but it still has doubled power and looks different during weather.\n\nAs thunder wave is prevented by immunities, unlike most non-damaging moves, it does not affect ghost-type Pokomon under the effect of this ability."
+    },
+    {
+        "name": "sniper",
+        "description": "This Pokomon inflicts triple damage with critical hits, rather than the usual double damage."
+    },
+    {
+        "name": "magic-guard",
+        "description": "This Pokomon is immune to damage not directly caused by a move.\n\nFor example, this Pokomon takes no damage from from weather, recoil, status ailments, or spikes, but it still suffers from the Attack cut when burned, and a life orb will still power up this Pokomon's moves without damaging it.  Anything that directly depends on such damage will also not happen; for example, leech seed will neither hurt this Pokomon nor heal the opponent, and Pokomon with a jaboca berry or rowap berry will not consume the berry when hit by this Pokomon.\n\nThe following are unaffected: struggle, pain split (whether used by or against this Pokomon), belly drum, substitute, curse, moves that knock the user out, and damage from confusion.\n\nThis Pokomon will neither lose nor regain HP if it drains HP from a Pokomon with liquid ooze.\n\nIf this Pokomon is badly poisoned, the poison counter is still increased each turn; if the Pokomon loses this ability, it will begin taking as much damage as it would be if it had been taking increasing damage each turn."
+    },
+    {
+        "name": "no-guard",
+        "description": "Moves used by or against this Pokomon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokomon during the preparation turn of moves like dig or fly.\n\nOverworld: If the lead Pokomon has this ability, the wild encounter rate is doubled."
+    },
+    {
+        "name": "stall",
+        "description": "This Pokomon moves last within its priority bracket.\n\nMultiple Pokomon with this ability move in order of Speed amongst themselves.\n\nThe full incense and lagging tail take precedence over this ability; that is, Pokomon with these items move after Pokomon with this ability.  Pokomon with both this ability and one of these items are delayed as much as if they had only the item.\n\nThis ability works as usual during trick room: Pokomon with this ability will move in reverse order of Speed after Pokomon without it."
+    },
+    {
+        "name": "technician",
+        "description": "This Pokomon's moves have 1.5 times their power if their base power is 60 or less.\n\nThis includes moves of variable power, such as hidden power and magnitude, when their power is 60 or less.  helping hand's power boost is taken into account for any move, as is defense curl's power boost for rollout."
+    },
+    {
+        "name": "leaf-guard",
+        "description": "This Pokomon cannot be given a major status ailment during strong sunlight.\n\nThis ability does not heal prior status ailments.  rest will fail altogether with this ability in effect.  yawn will immediately fail if used on this Pokomon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime."
+    },
+    {
+        "name": "klutz",
+        "description": "In battle, this Pokomon cannot use its held item, nor will the item have any passive effect on the battle, positive or negative.  This Pokomon also cannot use fling.\n\nThe Speed cut from the iron ball and the effort items (the macho brace, power weight, power bracer, power belt, power lens, power band, and power anklet) is unaffected.  Items that do not directly affect the battle, such as the exp share, the amulet coin, or the soothe bell, work as usual.  All held items work as usual out of battle.\n\nOther moves that use the held item, such as natural gift and switcheroo, work as usual."
+    },
+    {
+        "name": "mold-breaker",
+        "description": "This Pokomon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokomon's moves ignore abilities that would fully negate them, such as water absorb; abilities that would prevent any of their effects, such as clear body, shell armor, or sticky hold; and abilities that grant any general protective benefit, such as simple, snow cloak, or thick fat.  If an ability could either hinder or help this Pokomon's moves, e.g. dry skin or unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, cursed body only affects potential future uses of the move, while liquid ooze and shadow tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example color change or forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from drizzle.  This ability cannot ignore multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokomon's moves can paralyze a Pokomon with limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokomon's spikes are not affected by this ability after they have been placed.\n\nWhen this Pokomon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to teravolt and turboblaze."
+    },
+    {
+        "name": "super-luck",
+        "description": "This Pokomon's moves have critical hit rates one stage higher than normal."
+    },
+    {
+        "name": "aftermath",
+        "description": "When this Pokomon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage."
+    },
+    {
+        "name": "anticipation",
+        "description": "When this Pokomon enters battle, if one of its opponents has a move that is super effective against it, self destruct, explosion, or a one-hit knockout move, all participating trainers are notified.\n\nThe move itself is not revealed; only that there is such a move.  Moves that inflict typeless damage, such as future sight, and moves of variable type, such as hidden power, count as their listed types.  counter, metal burst, mirror coat, and one-hit KO moves to which this Pokomon is immune do not trigger this ability."
+    },
+    {
+        "name": "forewarn",
+        "description": "When this Pokomon enters battle, it reveals the move with the highest base power known by any opposing Pokomon to all participating trainers.\n\nIn the event of a tie, one is chosen at random.\n\nMoves without a listed base power are assigned one as follows:\n\nPower | Moves\n----: | -----\n  160 | One-hit KO moves: fissure, guillotine, horn drill, and sheer cold\n  120 | Counter moves: counter, metal burst, and mirror coat\n   80 | Variable power or set damage: crush grip, dragon rage, electro ball, endeavor, final gambit, flail, frustration, grass knot, gyro ball, heat crash, heavy slam, hidden power, low kick, natural gift, night shade, psywave, return, reversal, seismic toss, sonic boom, trump card, and wring out\n    0 | Any such move not listed\n"
+    },
+    {
+        "name": "unaware",
+        "description": "This Pokomon ignores other Pokomon's stat modifiers for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except Speed.\n\nThe power of punishment and stored power is calculated as usual.  When this Pokomon hurts itself in confusion, its stat modifiers affect damage as usual."
+    },
+    {
+        "name": "tinted-lens",
+        "description": "This Pokomon deals twice as much damage with moves that are not very effective against the target."
+    },
+    {
+        "name": "filter",
+        "description": "This Pokomon takes 0.75 times as much damage from moves that are super effective against it.\n\nThis ability functions identically to solid rock."
+    },
+    {
+        "name": "slow-start",
+        "description": "This Pokomon's Attack and Speed are halved for five turns upon entering battle.\n\nThis ability also takes effect when acquired during battle.  If this Pokomon loses its ability before the five turns are up, its Attack and Speed return to normal; if it then regains this ability without leaving battle, its Attack and Speed are halved again, but the counter keeps counting from where it was."
+    },
+    {
+        "name": "scrappy",
+        "description": "This Pokomon ignores ghost-type Pokomon's immunity to normal- and fighting-type moves.\n\nGhost Pokomon's other types affect damage as usual."
+    },
+    {
+        "name": "storm-drain",
+        "description": "All other Pokomon's single-target water-type moves are redirected to this Pokomon, if it is an eligible target.  Other Pokomon's Water moves raise this Pokomon's Special Attack one stage, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokomon with this ability are possible targets for redirection, the move is redirected to the one with the highest Speed stat, or, in the case of a tie, to a random tied Pokomon.  follow me takes precedence over this ability."
+    },
+    {
+        "name": "ice-body",
+        "description": "This Pokomon heals for 1/16 of its maximum HP after each turn during hail, and it does not take hail damage regardless of type."
+    },
+    {
+        "name": "solid-rock",
+        "description": "This Pokomon takes 0.75 times as much damage from moves that are super effective against it.\n\nThis ability functions identically to filter."
+    },
+    {
+        "name": "snow-warning",
+        "description": "The weather changes to hail when this Pokomon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokomon with this ability, drizzle, drought, or sand stream are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokomon will stay."
+    },
+    {
+        "name": "honey-gather",
+        "description": "This Pokomon has a chance of picking up honey after each battle.  This chance starts at 5% and rises another 5% after every tenth level: 5% from level 1\u201310, 10% from 11\u201320, and so on, up to 50% from 91\u2013100.\n\nThis ability is checked after the battle ends, at which point any temporary ability changes have worn off."
+    },
+    {
+        "name": "frisk",
+        "description": "When this Pokomon enters battle, it reveals an opposing Pokomon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokomon will Frisk that Pokomon; if both have an item, it will Frisk one at random."
+    },
+    {
+        "name": "reckless",
+        "description": "This Pokomon's recoil moves and crash moves have 1.2 times their base power.\n\nstruggle is unaffected.\n\nThe \"crash moves\" are the moves that damage the user upon missing: jump kick and high jump kick."
+    },
+    {
+        "name": "multitype",
+        "description": "If this Pokomon is holding an elemental Plate, its type and form change to match the Plate.\n\nThis Pokomon's held item, whether or not it is a Plate, cannot be taken by covet or thief, nor removed by knock off, nor traded by switcheroo or trick.  Covet, Thief, and Knock Off still inflict damage against this Pokomon.  Unlike with sticky hold, this Pokomon cannot use fling, Switcheroo, or Trick to lose its item itself, nor gain an item through Switcheroo or Trick if it does not have one.\n\nThis ability has no effect for any Pokomon other than arceus.  This ability cannot be traded with skill swap, nor copied with role play or trace, nor disabled with gastro acid, nor changed with worry seed.  This Pokomon cannot use Skill Swap or Role Play to lose its ability itself.  mold breaker cannot ignore this ability.\n\nIf a Pokomon Transforms into an Arceus with this ability, it will Transform into Arceus's default, normal-type form.  If the Transforming Pokomon is holding a Plate, this ability will then activate and change the Pokomon into the corresponding form."
+    },
+    {
+        "name": "flower-gift",
+        "description": "Friendly Pokomon have 1.5 times their Attack and Special Defense during strong sunlight if any friendly Pokomon has this ability.\n\nUnlike forecast, multitype, and zen mode, this ability is not tied to its Pokomon's form change; cherrim will switch between its forms even if it loses this ability.  As such, this ability also works if obtained by a Pokomon other than Cherrim."
+    },
+    {
+        "name": "bad-dreams",
+        "description": "Opposing Pokomon take 1/8 of their maximum HP in damage after each turn while they are asleep."
+    },
+    {
+        "name": "pickpocket",
+        "description": "Whenever a move makes contact with this Pokomon, if it does not have a held item, it steals the attacker's held item.\n\nThis Pokomon cannot steal upon being knocked out.  It can steal if the attacker has a substitute, but cannot steal when its own Substitute is hit.  If a move hits multiple times, only the last hit triggers this ability.  If this Pokomon is wild, it cannot steal from a trained Pokomon."
+    },
+    {
+        "name": "sheer-force",
+        "description": "This Pokomon's moves with extra effects have 1.3 times their power, but lose their extra effects.\n\nAn effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, thunder shock's paralysis is an extra effect, but thunder wave's is not, nor are knock off's item removal and air cutter's increased critical hit rate.\n\nMoves that lower the user's stats are unaffected."
+    },
+    {
+        "name": "contrary",
+        "description": "Whenever this Pokomon's stats would be raised, they are instead lowered by the same amount, and vice versa."
+    },
+    {
+        "name": "unnerve",
+        "description": "Opposing Pokomon cannot eat held Berries while this Pokomon is in battle.\n\nAffected Pokomon can still use bug bite or pluck to eat a target's Berry."
+    },
+    {
+        "name": "defiant",
+        "description": "When any of this Pokomon's stats are lowered, its Attack rises by two stages.\n\nIf multiple stats are lowered at once, this ability takes effect with each stat lowered."
+    },
+    {
+        "name": "defeatist",
+        "description": "This Pokomon's Attack and Special Attack are halved when it has half its HP or less."
+    },
+    {
+        "name": "cursed-body",
+        "description": "Moves that hit this Pokomon have a 30% chance of being Disabled afterward."
+    },
+    {
+        "name": "healer",
+        "description": "Friendly Pokomon next to this Pokomon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn."
+    },
+    {
+        "name": "friend-guard",
+        "description": "All friendly Pokomon take 0.75 times as much direct damage from moves while this Pokomon is in battle.\n\nThis effect stacks if multiple allied Pokomon have it."
+    },
+    {
+        "name": "weak-armor",
+        "description": "Whenever a physical move hits this Pokomon, its Speed rises one stage and its Defense falls one stage.\n\nThis ability triggers on every hit of a multiple-hit move."
+    },
+    {
+        "name": "heavy-metal",
+        "description": "This Pokomon has double the usual weight for its species."
+    },
+    {
+        "name": "light-metal",
+        "description": "This Pokomon has half the usual weight for its species."
+    },
+    {
+        "name": "multiscale",
+        "description": "This Pokomon takes half as much damage when it is hit having full HP."
+    },
+    {
+        "name": "toxic-boost",
+        "description": "This Pokomon has 1.5 times its Attack when poisoned."
+    },
+    {
+        "name": "flare-boost",
+        "description": "This Pokomon has 1.5 times its Special Attack when burned."
+    },
+    {
+        "name": "harvest",
+        "description": "After each turn, if the last item this Pokomon consumed was a Berry and it is not currently holding an item, it has a 50% chance of regaining that Berry, or a 100% chance during strong sunlight."
+    },
+    {
+        "name": "telepathy",
+        "description": "This Pokomon does not take damage from friendly Pokomon's moves, including single-target moves aimed at it."
+    },
+    {
+        "name": "moody",
+        "description": "After each turn, one of this Pokomon's stats at random rises two stages, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively."
+    },
+    {
+        "name": "overcoat",
+        "description": "This Pokomon does not take damage from weather."
+    },
+    {
+        "name": "poison-touch",
+        "description": "This Pokomon's contact moves have a 30% chance of poisoning the target with each hit.\n\nThis counts as an extra effect for the purposes of shield dust.  This ability takes effect before mummy."
+    },
+    {
+        "name": "regenerator",
+        "description": "This Pokomon regains 1/3 of its maximum HP when it is switched out for another Pokomon under any circumstances other than having fainted.\n\nThis ability does not take effect when a battle ends."
+    },
+    {
+        "name": "big-pecks",
+        "description": "This Pokomon's Defense cannot be lowered by other Pokomon.\n\nThis Pokomon can still be passed negative Defense modifiers through heart swap or guard swap."
+    },
+    {
+        "name": "sand-rush",
+        "description": "This Pokomon's Speed is doubled during a sandstorm, and it does not take sandstorm damage, regardless of type."
+    },
+    {
+        "name": "wonder-skin",
+        "description": "Non-damaging moves have exactly 50% base accuracy against this Pokomon."
+    },
+    {
+        "name": "analytic",
+        "description": "This Pokomon's moves have 1.3 times their power when it moves last in a turn.\n\nfuture sight and doom desire are unaffected."
+    },
+    {
+        "name": "illusion",
+        "description": "This Pokomon, upon being sent out, appears to have the species, nickname, and Poko Ball of the last Pokomon in the party that is able to battle.  This illusion breaks upon being hit by a damaging move.\n\nOther damage, e.g. from weather or spikes, does not break the illusion, nor does damage done to a substitute.\n\nIf the party order becomes temporarily shuffled around as Pokomon are switched out in battle, this ability chooses the last Pokomon according to that shuffled order."
+    },
+    {
+        "name": "imposter",
+        "description": "This Pokomon transforms into a random opponent upon entering battle.  This effect is identical to the move transform."
+    },
+    {
+        "name": "infiltrator",
+        "description": "This Pokomon's moves ignore light screen, reflect, and safeguard."
+    },
+    {
+        "name": "mummy",
+        "description": "Whenever a contact move hits this Pokomon, the attacking Pokomon's ability changes to Mummy.\n\nmultitype is unaffected.  If a Pokomon with moxie knocks this Pokomon out, the former's ability will change without taking effect."
+    },
+    {
+        "name": "moxie",
+        "description": "This Pokomon's Attack rises one stage upon knocking out another Pokomon, even a friendly Pokomon.\n\nThis ability does not take effect when the Pokomon indirectly causes another Pokomon to faint, e.g. through poison or spikes.\n\nIf this Pokomon knocks out a Pokomon with mummy, the former's ability will change without taking effect."
+    },
+    {
+        "name": "justified",
+        "description": "Whenever a dark-type move hits this Pokomon, its Attack rises one stage.\n\nThe move is not negated in any way."
+    },
+    {
+        "name": "rattled",
+        "description": "This Pokomon's Speed rises one stage with each hit from a damaging dark-, ghost-, or bug-type move."
+    },
+    {
+        "name": "magic-bounce",
+        "description": "When this Pokomon is targeted by a move flagged as being reflectable, the move is redirected to its user.\n\nAll reflectable moves are non-damaging, and most non-damaging moves that target other Pokomon are reflectable.\n\nA move reflected by this ability or magic coat cannot be reflected back."
+    },
+    {
+        "name": "sap-sipper",
+        "description": "Whenever a grass-type move hits this Pokomon, its Attack rises one stage, negating any other effect on it."
+    },
+    {
+        "name": "prankster",
+        "description": "This Pokomon's non-damaging moves have their priority increased by one stage."
+    },
+    {
+        "name": "sand-force",
+        "description": "During a sandstorm, this Pokomon's rock-, ground-, and steel-type moves have 1.3 times their base power.  This Pokomon does not take sandstorm damage, regardless of type."
+    },
+    {
+        "name": "iron-barbs",
+        "description": "Whenever a move makes contact with this Pokomon, the move's user takes 1/8 of its maximum HP in damage.\n\nThis ability functions identically to rough skin."
+    },
+    {
+        "name": "zen-mode",
+        "description": "This Pokomon switches between Standard Mode and Zen Mode after each turn depending on its HP.  Below 50% of its maximum HP, it switches to Zen Mode, and at 50% or above, it switches to Standard Mode.\n\nThis Pokomon returns to Standard Mode upon leaving battle or losing this ability.  This ability has no effect if this Pokomon is not a darmanitan."
+    },
+    {
+        "name": "victory-star",
+        "description": "All friendly Pokomon's moves, including this Pokomon's own moves, have 1.1 times their usual accuracy while this Pokomon is in battle."
+    },
+    {
+        "name": "turboblaze",
+        "description": "This Pokomon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokomon's moves ignore abilities that would fully negate them, such as water absorb; abilities that would prevent any of their effects, such as clear body, shell armor, or sticky hold; and abilities that grant any general protective benefit, such as simple, snow cloak, or thick fat.  If an ability could either hinder or help this Pokomon's moves, e.g. dry skin or unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, cursed body only affects potential future uses of the move, while liquid ooze and shadow tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example color change or forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from drizzle.  This ability cannot ignore multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokomon's moves can paralyze a Pokomon with limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokomon's spikes are not affected by this ability after they have been placed.\n\nWhen this Pokomon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to mold breaker and teravolt."
+    },
+    {
+        "name": "teravolt",
+        "description": "This Pokomon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokomon's moves ignore abilities that would fully negate them, such as water absorb; abilities that would prevent any of their effects, such as clear body, shell armor, or sticky hold; and abilities that grant any general protective benefit, such as simple, snow cloak, or thick fat.  If an ability could either hinder or help this Pokomon's moves, e.g. dry skin or unaware, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, cursed body only affects potential future uses of the move, while liquid ooze and shadow tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example color change or forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from drizzle.  This ability cannot ignore multitype at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokomon's moves can paralyze a Pokomon with limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokomon's spikes are not affected by this ability after they have been placed.\n\nWhen this Pokomon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to mold breaker and turboblaze."
+    },
+    {
+        "name": "mountaineer",
+        "description": ""
+    },
+    {
+        "name": "wave-rider",
+        "description": ""
+    },
+    {
+        "name": "skater",
+        "description": ""
+    },
+    {
+        "name": "thrust",
+        "description": ""
+    },
+    {
+        "name": "perception",
+        "description": ""
+    },
+    {
+        "name": "parry",
+        "description": ""
+    },
+    {
+        "name": "instinct",
+        "description": ""
+    },
+    {
+        "name": "dodge",
+        "description": ""
+    },
+    {
+        "name": "jagged-edge",
+        "description": ""
+    },
+    {
+        "name": "frostbite",
+        "description": ""
+    },
+    {
+        "name": "tenacity",
+        "description": ""
+    },
+    {
+        "name": "pride",
+        "description": ""
+    },
+    {
+        "name": "deep-sleep",
+        "description": ""
+    },
+    {
+        "name": "power-nap",
+        "description": ""
+    },
+    {
+        "name": "spirit",
+        "description": ""
+    },
+    {
+        "name": "warm-blanket",
+        "description": ""
+    },
+    {
+        "name": "gulp",
+        "description": ""
+    },
+    {
+        "name": "herbivore",
+        "description": ""
+    },
+    {
+        "name": "sandpit",
+        "description": ""
+    },
+    {
+        "name": "hot-blooded",
+        "description": ""
+    },
+    {
+        "name": "medic",
+        "description": ""
+    },
+    {
+        "name": "life-force",
+        "description": ""
+    },
+    {
+        "name": "lunchbox",
+        "description": ""
+    },
+    {
+        "name": "nurse",
+        "description": ""
+    },
+    {
+        "name": "melee",
+        "description": ""
+    },
+    {
+        "name": "sponge",
+        "description": ""
+    },
+    {
+        "name": "bodyguard",
+        "description": ""
+    },
+    {
+        "name": "hero",
+        "description": ""
+    },
+    {
+        "name": "last-bastion",
+        "description": ""
+    },
+    {
+        "name": "stealth",
+        "description": ""
+    },
+    {
+        "name": "vanguard",
+        "description": ""
+    },
+    {
+        "name": "nomad",
+        "description": ""
+    },
+    {
+        "name": "sequence",
+        "description": ""
+    },
+    {
+        "name": "grass-cloak",
+        "description": ""
+    },
+    {
+        "name": "celebrate",
+        "description": ""
+    },
+    {
+        "name": "lullaby",
+        "description": ""
+    },
+    {
+        "name": "calming",
+        "description": ""
+    },
+    {
+        "name": "daze",
+        "description": ""
+    },
+    {
+        "name": "frighten",
+        "description": ""
+    },
+    {
+        "name": "interference",
+        "description": ""
+    },
+    {
+        "name": "mood-maker",
+        "description": ""
+    },
+    {
+        "name": "confidence",
+        "description": ""
+    },
+    {
+        "name": "fortune",
+        "description": ""
+    },
+    {
+        "name": "bonanza",
+        "description": ""
+    },
+    {
+        "name": "explode",
+        "description": ""
+    },
+    {
+        "name": "omnipotent",
+        "description": ""
+    },
+    {
+        "name": "share",
+        "description": ""
+    },
+    {
+        "name": "black-hole",
+        "description": ""
+    },
+    {
+        "name": "shadow-dash",
+        "description": ""
+    },
+    {
+        "name": "sprint",
+        "description": ""
+    },
+    {
+        "name": "disgust",
+        "description": ""
+    },
+    {
+        "name": "high-rise",
+        "description": ""
+    },
+    {
+        "name": "climber",
+        "description": ""
+    },
+    {
+        "name": "flame-boost",
+        "description": ""
+    },
+    {
+        "name": "aqua-boost",
+        "description": ""
+    },
+    {
+        "name": "run-up",
+        "description": ""
+    },
+    {
+        "name": "conqueror",
+        "description": ""
+    },
+    {
+        "name": "shackle",
+        "description": ""
+    },
+    {
+        "name": "decoy",
+        "description": ""
+    },
+    {
+        "name": "shield",
+        "description": ""
+    },
+    {
+        "name": "aroma-veil",
+        "description": "Protects allies against moves that affect their mental state."
+    },
+    {
+        "name": "flower-veil",
+        "description": "Protects friendly grass Pokomon from having their stats lowered by other Pokomon."
+    },
+    {
+        "name": "cheek-pouch",
+        "description": "Restores HP upon eating a Berry, in addition to the Berry's effect."
+    },
+    {
+        "name": "protean",
+        "description": "Changes the bearer's type to match each move it uses.\n\nThe type change takes place just before the move is used."
+    },
+    {
+        "name": "fur-coat",
+        "description": "Halves damage from physical attacks."
+    },
+    {
+        "name": "magician",
+        "description": "Steals the target's held item when the bearer uses a damaging move."
+    },
+    {
+        "name": "bulletproof",
+        "description": "Protects against bullet, ball, and bomb-based moves."
+    },
+    {
+        "name": "competitive",
+        "description": "Raises Special Attack by two stages upon having any stat lowered."
+    },
+    {
+        "name": "strong-jaw",
+        "description": "Strengthens biting moves to 1.5 times their power."
+    },
+    {
+        "name": "refrigerate",
+        "description": "Turns the bearer's normal-type moves into ice-type moves.  Moves changed by this ability have 1.3 times their power."
+    },
+    {
+        "name": "sweet-veil",
+        "description": "Prevents friendly Pokomon from sleeping."
+    },
+    {
+        "name": "stance-change",
+        "description": "Changes aegislash to Blade Forme before using a damaging move, or Shield Forme before using kings shield."
+    },
+    {
+        "name": "gale-wings",
+        "description": "Raises flying moves' priority by one stage."
+    },
+    {
+        "name": "mega-launcher",
+        "description": "Strengthens aura and pulse moves to 1.5 times their power."
+    },
+    {
+        "name": "grass-pelt",
+        "description": "Boosts Defense while grassy terrain is in effect."
+    },
+    {
+        "name": "symbiosis",
+        "description": "Passes the bearer's held item to an ally when the ally uses up its item."
+    },
+    {
+        "name": "tough-claws",
+        "description": "Strengthens moves that make contact to 1.33 times their power."
+    },
+    {
+        "name": "pixilate",
+        "description": "Turns the bearer's normal-type moves into fairy moves.  Moves changed by this ability have 1.3 times their power."
+    },
+    {
+        "name": "gooey",
+        "description": "Lowers attacking Pokomon's Speed by one stage on contact."
+    },
+    {
+        "name": "aerilate",
+        "description": "Turns the bearer's normal-type moves into flying-type moves.  Moves changed by this ability have 1.3 times their power."
+    },
+    {
+        "name": "parental-bond",
+        "description": "Lets the bearer hit twice with damaging moves.  The second hit has half power."
+    },
+    {
+        "name": "dark-aura",
+        "description": "Strengthens dark moves for all friendly and opposing Pokomon."
+    },
+    {
+        "name": "fairy-aura",
+        "description": "Strengthens fairy moves for all friendly and opposing Pokomon."
+    },
+    {
+        "name": "aura-break",
+        "description": "While this Pokomon is on the field, dark aura and fairy aura weaken moves of their respective types to 2/3 their power, rather than strengthening them."
+    },
+    {
+        "name": "primordial-sea",
+        "description": "When this Pokomon enters battle or gains this ability, the weather becomes heavy rain.  Heavy rain has all the properties of rain dance and also causes damaging Fire moves to fail.\n\nHeavy rain ends when this Pokomon leaves battle or loses this ability, or when this ability is nullified.  The weather cannot otherwise be changed except by the effects of delta stream and desolate land.\n\nair lock and cloud nine will prevent the effects of heavy rain, including allowing Fire moves to work, but will not allow the weather to be changed."
+    },
+    {
+        "name": "desolate-land",
+        "description": "When this Pokomon enters battle or gains this ability, the weather becomes extremely harsh sunlight.  Extremely harsh sunlight has all the properties of sunny day and also causes damaging Water moves to fail.\n\nExtremely harsh sunlight ends when this Pokomon leaves battle or loses this ability, or when this ability is nullified.  The weather cannot otherwise be changed except by the effects of delta stream and primordial sea.\n\nair lock and cloud nine will prevent the effects of extremely harsh sunlight, including allowing Water moves to work, but will not allow the weather to be changed."
+    },
+    {
+        "name": "delta-stream",
+        "description": "When this Pokomon enters battle or gains this ability, the weather becomes a mysterious air current.  A mysterious air current causes moves to not be super effective against Flying; they do neutral damage instead.  anticipation and stealth rock are not affected.\n\nThe mysterious air current ends when this Pokomon leaves battle or loses this ability, or when this ability is nullified.  The weather cannot otherwise be changed except by the effects of desolate land and primordial sea.\n\nair lock and cloud nine will prevent the effect of a mysterious air current, but will not allow the weather to be changed."
+    },
+    {
+        "name": "stamina",
+        "description": "Raises this Pokomon's Defense by one stage when it takes damage from a move."
+    },
+    {
+        "name": "wimp-out",
+        "description": "After this Pokomon is hit by a move, if that move caused this Pokomon's HP to drop below half, it switches out."
+    },
+    {
+        "name": "emergency-exit",
+        "description": "After this Pokomon is hit by a move, if that move caused this Pokomon's HP to drop below half, it switches out."
+    },
+    {
+        "name": "water-compaction",
+        "description": "Raises this Pokomon's Defense by two stages when it's hit by a Water move."
+    },
+    {
+        "name": "merciless",
+        "description": "This Pokomon's moves critical hit against poisoned targets."
+    },
+    {
+        "name": "shields-down",
+        "description": "When this Pokomon enters battle and at the end of each turn, if its HP is 50% or above, it changes into Meteor Form; otherwise, it changes into Core Form.  In Meteor Form, it cannot be given a major status ailment (though existing ones are not cured), cannot become drowsy from yawn, and cannot use rest (which will simply fail).\n\nThis ability cannot be copied, replaced, or nullified.  This ability only takes effect for Minior."
+    },
+    {
+        "name": "stakeout",
+        "description": "This Pokomon's moves have double power against Pokomon that switched in this turn."
+    },
+    {
+        "name": "water-bubble",
+        "description": "When this Pokomon is hit by a Fire move, the damage is halved.  When this Pokomon uses a Water move, the power is doubled. This Pokomon cannot be burned, and if it becomes burned, the burn is immediately cured."
+    },
+    {
+        "name": "steelworker",
+        "description": "This Pokomon's Steel moves have 1.5 times power."
+    },
+    {
+        "name": "berserk",
+        "description": "Whenever this Pokomon takes damage from a move that causes its HP to drop below 50%, its Special Attack rises by one stage."
+    },
+    {
+        "name": "slush-rush",
+        "description": "During Hail, this Pokomon has double Speed."
+    },
+    {
+        "name": "long-reach",
+        "description": "A move used by this Pokomon will not make contact."
+    },
+    {
+        "name": "liquid-voice",
+        "description": "When this Pokomon uses a move that is sound-based, that move's type is Water."
+    },
+    {
+        "name": "triage",
+        "description": "This Pokomon's healing moves have their priority increased by 3."
+    },
+    {
+        "name": "galvanize",
+        "description": "When this Pokomon uses a Normal moves, that move is Electric its power is 1.2 times."
+    },
+    {
+        "name": "surge-surfer",
+        "description": "Doubles this Pokomon's Speed on Electric Terrain."
+    },
+    {
+        "name": "schooling",
+        "description": "If this Pokomon is a wishiwashi and level 20 or above, then when it enters battle and at the start of each turn, it becomes Schooling Form if its HP is 25% or higher and Solo Form otherwise.\n\nThis ability cannot be replaced, copied, or nullified."
+    },
+    {
+        "name": "disguise",
+        "description": "If this Pokomon is in its Disguised Form and takes damage from a move, it switches to its Busted Form and the damage is prevented.  Other effects are not prevented.\n\nThis ability cannot be copied or replaced.  This ability only takes effect for Mimikyu."
+    },
+    {
+        "name": "battle-bond",
+        "description": "Transforms this Pokomon into Ash-Greninja after fainting an opponent.  Water Shuriken's power is 20 and always hits three times.\n\nThis ability cannot be copied or replaced.  This ability only takes effect for Greninja."
+    },
+    {
+        "name": "power-construct",
+        "description": "Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%.\n\nThis ability cannot be copied or replaced.  This ability only takes effect for Zygarde."
+    },
+    {
+        "name": "corrosion",
+        "description": "This Pokomon's moves and item ignore the usual immunity of Poison and Steel Pokomon when attempting to inflict poison."
+    },
+    {
+        "name": "comatose",
+        "description": "This Pokomon always acts as though it were Asleep.  It cannot be given another status ailment; it's unaffected by yawn; it can use sleep talk; and so on."
+    },
+    {
+        "name": "queenly-majesty",
+        "description": "When an opposing Pokomon attempts to use a move that targets this Pokomon or an ally, and that move has priority, it will fail."
+    },
+    {
+        "name": "innards-out",
+        "description": "When this Pokomon faints from an opponent's move, that opponent takes damage equal to the HP this Pokomon had remaining."
+    },
+    {
+        "name": "dancer",
+        "description": "Whenever another Pokomon uses a dance move, this Pokomon will use the same move immediately afterwards."
+    },
+    {
+        "name": "battery",
+        "description": "Ally Pokomon's moves have their power increased to 1.3 times."
+    },
+    {
+        "name": "fluffy",
+        "description": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
+    },
+    {
+        "name": "dazzling",
+        "description": "When an opposing Pokomon attempts to use a move that targets this Pokomon or an ally, and that move has priority, it will fail."
+    },
+    {
+        "name": "soul-heart",
+        "description": "This Pokomon's Special Attack rises by one stage every time any Pokomon faints."
+    },
+    {
+        "name": "tangling-hair",
+        "description": "When this Pokomon takes regular damage from a contact move, the attacking Pokomon's Speed lowers by one stage."
+    },
+    {
+        "name": "receiver",
+        "description": "When an ally faints, this Pokomon gains its Ability."
+    },
+    {
+        "name": "power-of-alchemy",
+        "description": "When an ally faints, this Pokomon gains its Ability."
+    },
+    {
+        "name": "beast-boost",
+        "description": "Raises this Pokomon's highest stat by one stage when it faints another Pokomon."
+    },
+    {
+        "name": "rks-system",
+        "description": "Changes this Pokomon's type to match its held Memory.\n\nThis ability cannot be copied, replaced, or nullified.  This ability only takes effect for Silvally."
+    },
+    {
+        "name": "electric-surge",
+        "description": "When this Pokomon enters battle, it changes the terrain to electric terrain."
+    },
+    {
+        "name": "psychic-surge",
+        "description": "When this Pokomon enters battle, it changes the terrain to psychic terrain."
+    },
+    {
+        "name": "misty-surge",
+        "description": "When this Pokomon enters battle, it changes the terrain to misty terrain."
+    },
+    {
+        "name": "grassy-surge",
+        "description": "When this Pokomon enters battle, it changes the terrain to grassy terrain."
+    },
+    {
+        "name": "full-metal-body",
+        "description": "This Pokomon's stats cannot be lowered by other Pokomon's moves or abilities.  This effect only applies to normal stat modifications and not more exotic effects such as topsy turvy or power swap.\n\nThis Ability is not bypassed by mold breaker, teravolt, or turboblaze."
+    },
+    {
+        "name": "shadow-shield",
+        "description": "When this Pokomon has full HP, regular damage (not fixed damage!) from moves is halved.\n\nThis ability cannot be nullified."
+    },
+    {
+        "name": "prism-armor",
+        "description": "Super-effective damage this Pokomon takes is reduced to 0.75 times.\n\nThis Ability is not bypassed by mold breaker, teravolt, or turboblaze."
+    },
+    {
+        "name": "neuroforce",
+        "description": "Increases super-effective damage dealt to 1.25 times."
+    },
+    {
+        "name": "intrepid-sword",
+        "description": ""
+    },
+    {
+        "name": "dauntless-shield",
+        "description": ""
+    },
+    {
+        "name": "libero",
+        "description": ""
+    },
+    {
+        "name": "ball-fetch",
+        "description": ""
+    },
+    {
+        "name": "cotton-down",
+        "description": ""
+    },
+    {
+        "name": "propeller-tail",
+        "description": ""
+    },
+    {
+        "name": "mirror-armor",
+        "description": ""
+    },
+    {
+        "name": "gulp-missile",
+        "description": ""
+    },
+    {
+        "name": "stalwart",
+        "description": ""
+    },
+    {
+        "name": "steam-engine",
+        "description": ""
+    },
+    {
+        "name": "punk-rock",
+        "description": ""
+    },
+    {
+        "name": "sand-spit",
+        "description": ""
+    },
+    {
+        "name": "ice-scales",
+        "description": ""
+    },
+    {
+        "name": "ripen",
+        "description": ""
+    },
+    {
+        "name": "ice-face",
+        "description": ""
+    },
+    {
+        "name": "power-spot",
+        "description": ""
+    },
+    {
+        "name": "mimicry",
+        "description": ""
+    },
+    {
+        "name": "screen-cleaner",
+        "description": ""
+    },
+    {
+        "name": "steely-spirit",
+        "description": ""
+    },
+    {
+        "name": "perish-body",
+        "description": ""
+    },
+    {
+        "name": "wandering-spirit",
+        "description": ""
+    },
+    {
+        "name": "gorilla-tactics",
+        "description": ""
+    },
+    {
+        "name": "neutralizing-gas",
+        "description": ""
+    },
+    {
+        "name": "pastel-veil",
+        "description": ""
+    },
+    {
+        "name": "hunger-switch",
+        "description": ""
+    },
+    {
+        "name": "quick-draw",
+        "description": ""
+    },
+    {
+        "name": "unseen-fist",
+        "description": ""
+    },
+    {
+        "name": "curious-medicine",
+        "description": ""
+    },
+    {
+        "name": "transistor",
+        "description": ""
+    },
+    {
+        "name": "dragons-maw",
+        "description": ""
+    },
+    {
+        "name": "chilling-neigh",
+        "description": ""
+    },
+    {
+        "name": "grim-neigh",
+        "description": ""
+    },
+    {
+        "name": "as-one-glastrier",
+        "description": ""
+    },
+    {
+        "name": "as-one-spectrier",
+        "description": ""
+    }
+]

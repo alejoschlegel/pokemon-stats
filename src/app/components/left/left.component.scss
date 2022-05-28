@@ -1,0 +1,50 @@
+.wrapper {
+    padding: 1rem;
+    padding-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 45vw;
+    height: 100vh;
+    box-sizing: border-box;
+
+    img {
+        height: 10rem;
+    }
+
+    .top {
+        display: flex;
+        min-height: 17rem;
+        li {
+            list-style: none;
+        }
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 5rem;
+        li {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 1.5rem;
+            width: 100%;
+            padding-left:4rem;
+
+            ul {
+                padding: 0;
+            }
+        }
+    }
+
+    .bottom {
+        flex: content;
+        justify-content: center;
+        align-items: center;
+        background-color: burlywood;
+    }
+}

@@ -1,0 +1,32 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 3.5rem;
+    box-shadow: 0 0 29px #3c3c3c6b;
+    box-sizing: border-box;
+    background-color: var(--light-orange);
+    padding: 0 1rem;
+
+    input {
+        border: none;
+        background-color: var(--light-white);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        width: 20%;
+        font-size: 0.85rem;
+        color: var(--black);
+    }
+    datalist{
+        width: 20%;
+    }
+    option{
+        font-size: 0.85rem;
+    }
+}
