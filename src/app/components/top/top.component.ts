@@ -36,6 +36,7 @@ export class TopComponent implements OnInit {
     if (!this.pokemonsList.find(pokemon => pokemon === this.inputValue)) return
     this.pokemonService.getPokemon(this.inputValue).subscribe(data => {
       this.pokemonService.setCurrentPokemon(data[0]);
+      this.inputValue = '';
     });
   }
 
