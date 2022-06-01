@@ -15,6 +15,8 @@ export class AppComponent {
 
   ngOnInit() {
     console.log('AppComponent initialized');
-    console.log(this.pokemonService.currentPokemon.name);
+    this.pokemonService.getPokemon('bulbasaur').subscribe(pokemon => {
+      this.pokemonService.setCurrentPokemon(pokemon[0]);
+    })
   }
 }

@@ -22,24 +22,24 @@
             </td>
         </ng-container>
 
-        <ng-container matColumnDef="power">
+        <ng-container matColumnDef="power" class="small">
             <th mat-header-cell *matHeaderCellDef> pwr </th>
             <td mat-cell *matCellDef="let element"> {{element.power}} </td>
         </ng-container>
 
-        <ng-container matColumnDef="accuracy">
+        <ng-container matColumnDef="accuracy" class="small">
             <th mat-header-cell *matHeaderCellDef> acc </th>
-            <td mat-cell *matCellDef="let element"> {{element.accuracy}} </td>
+            <td mat-cell *matCellDef="let element"> {{element.accuracy}}%</td>
         </ng-container>
 
         <ng-container matColumnDef="description">
             <th mat-header-cell *matHeaderCellDef> description </th>
-            <td mat-cell *matCellDef="let element"> {{element.effect? element.effect : ""}} </td>
+            <td mat-cell *matCellDef="let element" class="description"> {{element.effect? element.effect : ""}} </td>
         </ng-container>
 
         <ng-container matColumnDef="effect">
             <th mat-header-cell *matHeaderCellDef> efx </th>
-            <td mat-cell *matCellDef="let element"> {{element.effect_chance}} </td>
+            <td mat-cell *matCellDef="let element"> {{element.effect_chance? element.effect_chance + "%" : null}}</td>
         </ng-container>
 
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

@@ -14,26 +14,26 @@
     --brown: #a66333;
 
     --bug: #a6b91a;
-    --dark: #735a12;
-    --dragon: #0f7fd8;
-    --electric: #f7d02c;
-    --fairy: #f4b9ff;
+    --dark: #705746;
+    --dragon: #6f35fc;
+    --electric: #fcac14;
+    --fairy: #d685ad;
     --fighting: #b22234;
-    --fire: #ea5f0e;
-    --flying: #a890f0;
-    --ghost: #735a12;
+    --fire: #ee8130;
+    --flying: #a98ff3;
+    --ghost: #735797;
     --grass: #7ac74c;
     --ground: #e2bf65;
-    --ice: #92d8d8;
-    --normal: #a8a878;
+    --ice: #96d9d6;
+    --normal: #a8a77a;
     --poison: #a33ea1;
     --psychic: #f95587;
-    --rock: #b8a038;
-    --steel: #b7b7b7;
-    --water: #5da5d8;
+    --rock: #b6a136;
+    --steel: #b7b7ce;
+    --water: #6390f0;
 
-    --physical: #b8a038;
-    --special: #92d8d8;
+    --physical: #fa7451;
+    --special: #8b3bdb;
     --status: #f95587;
 
 }
@@ -43,4 +43,12 @@ html, body {
     color: var(--black);
     background-color: var(--white);
     font-family: "open sans", sans-serif;
+}
+li, ul {
+    list-style: none;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }

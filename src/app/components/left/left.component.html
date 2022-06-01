@@ -1,7 +1,15 @@
 <div class="wrapper">
+
     <div class="top">
-        <img src="{{this.pokemonService.currentPokemon.sprite}}" alt="">
-        <div>
+        <div class="top-left">
+            <img src="{{this.pokemonService.currentPokemon.sprite}}" alt="">
+            <li>
+                <ul *ngFor="let type of this.pokemonService.currentPokemon.types">
+                    <app-tag [type]=type></app-tag>
+                </ul>
+            </li>
+        </div>
+        <div class="top-right">
             <h1>{{this.pokemonService.currentPokemon.name}}</h1>
             <li> 
                 <ul *ngFor="let ability of this.pokemonService.currentAbilities">
@@ -10,24 +18,35 @@
             </li>
         </div>
     </div>
+
+
     <div class="middle">
-        <li>
-            <ul *ngFor="let stat of this.pokemonService.currentPokemon.stats;">
-                {{ stat.stat }} : {{ stat.amount }}
-            </ul>
-        </li>
-        <li>
-            <ul *ngFor="let stat of this.pokemonService.currentPokemon.stats;">
-                {{ stat.stat }} : {{ stat.amount }}
-            </ul>
-        </li>
+        <div>
+            <h3>select</h3>
+            <li>
+                <ul *ngFor="let stat of this.pokemonService.currentPokemon.stats;">
+                    {{ abbreviate(stat.stat) }} : {{ stat.amount }}
+                </ul>
+            </li>
+        </div>
+        <div>
+            <h3>select</h3>
+            <li>
+                <ul *ngFor="let stat of this.pokemonService.currentPokemon.stats;">
+                    {{ abbreviate(stat.stat) }} : {{ stat.amount }}
+                </ul>
+            </li>
+        </div>
     </div>
+
+
     <div class="bottom">
         <div class="box" *ngFor="let number of this.pokemonService.defenceKeys">
-            <div class="boxLeft">{{number}}</div>
-            <div class="boxRight">
+            <div class="box-left">{{number}}</div>
+            <div class="box-right">
                 <app-tag *ngFor="let type of this.pokemonService.currentEffectiveness.defence[number]" [type]=type></app-tag>
             </div>
         </div>
     </div>
+
 </div>

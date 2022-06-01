@@ -15,6 +15,11 @@ export class TopComponent implements OnInit {
     let data = await res.text();
     return JSON.parse(data);
   }
+  async getJsonData1() {
+    let res = await fetch('assets/data/effectiveness.json');
+    let data = await res.text();
+    return JSON.parse(data);
+  }
 
   inputValue: string = '';
   pokemonsList = [];

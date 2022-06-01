@@ -17,8 +17,8 @@ export class PokemonService {
 
   
   //currentEffectiveness: Effectiveness = {} as Effectiveness;
-  private effectiveness = new BehaviorSubject<Effectiveness>({} as Effectiveness);
-  currentEffectiveness1 = this.effectiveness.asObservable();
+  /* private effectiveness1 = new BehaviorSubject<Effectiveness>({} as Effectiveness);
+  currentEffectiveness1 = this.effectiveness1.asObservable(); */
 
   currentEffectiveness: Effectiveness = {
     defence: {},
@@ -36,8 +36,8 @@ export class PokemonService {
   private abilitiesCollection: AngularFirestoreCollection<Ability>;
   abilities: Observable<Ability[]>;
 
-  private effectivenessCollection: AngularFirestoreCollection<Effectiveness>;
-  effectiveness1: Observable<Effectiveness[]>;
+  /* private effectivenessCollection: AngularFirestoreCollection<any>;
+  effectiveness: Observable<any>; */
 
 
   constructor(private angularFirestore: AngularFirestore) {
@@ -50,8 +50,8 @@ export class PokemonService {
     this.abilitiesCollection = this.angularFirestore.collection<Ability>('abilities');
     this.abilities = this.abilitiesCollection.valueChanges();
 
-    this.effectivenessCollection = this.angularFirestore.collection<Effectiveness>('effectiveness');
-    this.effectiveness1 = this.effectivenessCollection.valueChanges();
+    /* this.effectivenessCollection = this.angularFirestore.collection<any>('effectiveness');
+    this.effectiveness = this.effectivenessCollection.valueChanges(); */
   }
 
 
@@ -70,13 +70,11 @@ export class PokemonService {
     this.angularFirestore.collection<Ability>('abilities', ref => ref.where( 'name', "in", pokemon.abilities)).valueChanges().subscribe(abilities => {
       this.setCurrentAbilities(abilities);
     });
-    this.angularFirestore.collection<any>('effectiveness').valueChanges().subscribe(effectiveness => {
+    this.angularFirestore.collection<any>('effectiveness').valueChanges().subscribe((effectiveness:any) => {
 
-      //TODO: check if the types are in the name instead of check equality
       let str:string = "";
       pokemon.types.sort().forEach(type => str += '-' + type);
       str = str.substring(1);
-      console.log(effectiveness[1]);
 
       this.setCurrentEffectiveness({
         defence: effectiveness[1][str]
@@ -92,7 +90,6 @@ export class PokemonService {
     this.currentAbilities = abilities;
   }
   setCurrentEffectiveness(effectiveness: Effectiveness) {
-    //this.effectiveness.next(effectiveness)
     this.currentEffectiveness = effectiveness;
   }
 
@@ -119,7 +116,22 @@ export class PokemonService {
     });
   } */
 
-  /* addEffectiveness(effectiveness: Effectiveness) {
-    this.effectivenessCollection.doc('effectiveness').set(effectiveness);
+  /* addEffectiveness() {
+    this.effectivenessCollection.doc('attack').set({});
   } */
+
+  deleteEmptyEfectivenessType(effectiveness:any) {
+    let newEffectiveness: any = {};
+    for (let key in effectiveness[1]) {
+      let newKey:any = {}
+      for (let key2 in effectiveness[1][key]) {
+        if(effectiveness[1][key][key2].length > 0) {
+          newKey[key2] = effectiveness[1][key][key2];
+        }
+      }
+      newEffectiveness[key] = newKey;
+    }
+    console.log(newEffectiveness);
+    this.angularFirestore.collection<any>('effectiveness').doc('defence').set(newEffectiveness);
+  }
 } 

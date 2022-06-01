@@ -9,12 +9,22 @@
     .container {
         width: 100%;
         flex: content;
-        background-color: aquamarine;
         overflow-y: scroll;
         table {
-            width: 100%;
             table-layout: fixed;
-            background-color: blanchedalmond;
+            border-collapse: collapse;
+            padding: 0.5rem;
+            th, td {
+                padding: 0.5rem;
+                min-height: 5rem;
+            }
+            .description {
+                display: -webkit-box;
+                text-overflow: ellipsis;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;  /* Number of lines displayed before it truncate */
+                overflow: hidden;
+            }
         }
     }
 }
