@@ -41,7 +41,7 @@
 
 
     <div class="bottom">
-        <div class="box" *ngFor="let number of this.pokemonService.defenceKeys">
+        <div class = "box" *ngFor="let number of this.pokemonService.defenceKeys">
             <div class="box-left">{{number}}</div>
             <div class="box-right">
                 <app-tag *ngFor="let type of this.pokemonService.currentEffectiveness.defence[number]" [type]=type></app-tag>
